@@ -18,6 +18,6 @@ session_start();
     <p>العمر: <?php echo htmlspecialchars($_COOKIE['age'] ?? 'غير متوفر'); ?></p>
     <p>الجنس: <?php echo htmlspecialchars($_COOKIE['gender'] ?? 'غير متوفر'); ?></p>
 
-    <a href="frخm.php">العودة إلى النموذج</a>
+    <a href="from.php">العودة إلى النموذج</a>
 </body>
 </html>
